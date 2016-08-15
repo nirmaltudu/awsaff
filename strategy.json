@@ -1,0 +1,12 @@
+{
+	"STRATEGY" : {
+		"TEST" : {
+			"Operation" : "ItemSearch",
+			"SearchIndex" : "{CATEGORY_ABBREV}",
+			"ResponseGroup" : "Images,ItemAttributes,OfferListings,SalesRank",
+			"Sort" : "{CATEGORY_SORT}",
+			"BrowseNode" : "{CATEGORY_ID}",
+			"Availability" : "Available"
+		}
+	}
+}
